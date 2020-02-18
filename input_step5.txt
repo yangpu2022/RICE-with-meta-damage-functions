@@ -1,0 +1,9 @@
+SQ=N
+Par=INI_DATA    rng=INI!A1:P30  Rdim=1 Cdim=1
+Par=POP_DATA    rng=POP!A6:P90  Rdim=1 Cdim=1
+Par=SIG_DATA    rng=SIG!A6:P90  Rdim=1 Cdim=1
+Par=TFP_DATA    rng=TFP!A6:P90  Rdim=1 Cdim=1
+Par=LU_DATA     rng=LU!A6:P90   Rdim=1 Cdim=1
+
+Dset=N         rng=INI!B1:P1    Cdim=1 
+Dset=VN        rng=INI!A2:A30   Rdim=1 

@@ -1,0 +1,41 @@
+EpsOut =0  sq =n
+
+var=UTILITY    rng=Utility(Nash)!b2
+var=UT1        rng=Utility(Nash)!b4
+var=UT2        rng=Utility(Nash)!b5
+var=UT3        rng=Utility(Nash)!b6
+var=UT4        rng=Utility(Nash)!b7
+var=UT5        rng=Utility(Nash)!b8
+var=UT6        rng=Utility(Nash)!b9
+var=UT7        rng=Utility(Nash)!b10
+var=UT8        rng=Utility(Nash)!b11
+var=UT9        rng=Utility(Nash)!b12
+var=UTa        rng=Utility(Nash)!b13
+var=UTb        rng=Utility(Nash)!b14
+var=UTc        rng=Utility(Nash)!b15
+var=UTd        rng=Utility(Nash)!b16
+var=UTe        rng=Utility(Nash)!b17
+var=UTf        rng=Utility(Nash)!b18
+
+Text="/ ** Utility **/"           rng=Utility(Nash)!a1
+Text="SUM utility"                rng=Utility(Nash)!a2
+Text="/ ** National Utility **/"  rng=Utility(Nash)!a3
+Text="USA"                        rng=Utility(Nash)!a4
+Text="RUS"                        rng=Utility(Nash)!a5
+Text="JAP"                        rng=Utility(Nash)!a6
+Text="CAN"                        rng=Utility(Nash)!a7
+Text="UMB"                        rng=Utility(Nash)!a8
+Text="EU"                         rng=Utility(Nash)!a9
+Text="CHN"                        rng=Utility(Nash)!a10
+Text="IND"                        rng=Utility(Nash)!a11
+Text="BRZ"                        rng=Utility(Nash)!a12
+Text="SAF"                        rng=Utility(Nash)!a13
+Text="OECD"                       rng=Utility(Nash)!a14
+Text="REF"                        rng=Utility(Nash)!a15
+Text="ASIA"                       rng=Utility(Nash)!a16
+Text="MAF"                        rng=Utility(Nash)!a17
+Text="LAM"                        rng=Utility(Nash)!a18
+
+
+
+

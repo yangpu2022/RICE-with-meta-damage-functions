@@ -1,0 +1,64 @@
+EpsOut =0  sq =n
+
+
+par =SCC         rng =S_NGoptimal_SCC!a2
+par =ABTM        rng =S_NGoptimal_SCC!a22
+par =DMGM        rng =S_NGoptimal_SCC!a42
+
+Text = "/ ** SCC ** /"                              rng=S_NGoptimal_SCC!a1
+Text = "/Marginal Abatement Cost"                   rng=S_NGoptimal_SCC!a21
+Text = "/Marginal Climate Damage"                   rng=S_NGoptimal_SCC!a41
+
+
+var =MIU.L       rng =S_NGoptimal(Eco)!a3
+var =Y.L         rng =S_NGoptimal(Eco)!a22
+var =YG.L        rng =S_NGoptimal(Eco)!b40
+var =PAbate.L    rng =S_NGoptimal(Eco)!b58
+var =Abatement.L rng =S_NGoptimal(Eco)!b76
+var =PImpact.L   rng =S_NGoptimal(Eco)!b94
+var =PSLRI.L     rng =S_NGoptimal(Eco)!c112
+var =Impact.L    rng =S_NGoptimal(Eco)!b130
+var =C.L         rng =S_NGoptimal(Eco)!a148
+var =I.L         rng =S_NGoptimal(Eco)!a166
+var =K.L         rng =S_NGoptimal(Eco)!a184
+
+Text = "/ ** Emission control rate ** /"                rng=S_NGoptimal(Eco)!a1
+Text = "/*Emission control rate"                        rng=S_NGoptimal(Eco)!a2
+Text = "/ ** Economic Variables ** /"                   rng=S_NGoptimal(Eco)!a20
+Text = "/*GDP(trillion 2011 international$) "           rng=S_NGoptimal(Eco)!a21
+Text = "//Production-CD(trillion 2011 international$)"  rng=S_NGoptimal(Eco)!b39
+Text = "/% Abatement of GDP"                            rng=S_NGoptimal(Eco)!b57
+Text = "//Abatement Cost(trillion 2011 international$)" rng=S_NGoptimal(Eco)!b75
+Text = "/% Impact of GDP"                               rng=S_NGoptimal(Eco)!b93
+Text = "/% SLR Impact of GDP"                           rng=S_NGoptimal(Eco)!c111
+Text = "//Impact(trillion 2011 international$)"         rng=S_NGoptimal(Eco)!b129
+Text = "/ Consumption(trillion 2011 international$)"    rng=S_NGoptimal(Eco)!a147
+Text = "/ Investment(trillion 2011 international$)"     rng=S_NGoptimal(Eco)!a165
+Text = "/ Capital Stock(trillion 2011 international$)"  rng=S_NGoptimal(Eco)!a183
+
+
+var =ES.L        rng =S_NGoptimal(Clm)!b2
+par =LU          rng =S_NGoptimal(Clm)!b7
+var =E.L         rng =S_NGoptimal(Clm)!b25
+var =M.L         rng =S_NGoptimal(Clm)!b43
+var =MU.L        rng =S_NGoptimal(Clm)!b45
+var =ML.L        rng =S_NGoptimal(Clm)!b47
+var =F.L         rng =S_NGoptimal(Clm)!b49
+par =ExogForc    rng =S_NGoptimal(Clm)!c51
+var =TE.L        rng =S_NGoptimal(Clm)!b53
+var =TL.L        rng =S_NGoptimal(Clm)!b55
+
+Text = "/ ** Emission ** /"                             rng=S_NGoptimal(Clm)!a1
+Text = "/Total Emssion(GtC)"                            rng=S_NGoptimal(Clm)!a3
+Text = "//Landuse Emsision(GtC)"                        rng=S_NGoptimal(Clm)!b6
+Text = "//Fossil Emission(GtCO2)"                       rng=S_NGoptimal(Clm)!b24
+Text = "/ **Climate ** /"                               rng=S_NGoptimal(Clm)!a42
+Text = "//M(GtC)"                                       rng=S_NGoptimal(Clm)!a44
+Text = "//MU(GtC)"                                      rng=S_NGoptimal(Clm)!a46
+Text = "//ML(GtC)"                                      rng=S_NGoptimal(Clm)!a48
+Text = "//Forcing(W/M^2)"                               rng=S_NGoptimal(Clm)!a50
+Text = "/exogenous forcing"                             rng=S_NGoptimal(Clm)!b52
+Text = "//Atom Temperature(C)"                          rng=S_NGoptimal(Clm)!a54
+Text = "//Ocea Temperature(C)"                          rng=S_NGoptimal(Clm)!a56
+
+

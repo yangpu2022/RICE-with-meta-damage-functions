@@ -1,0 +1,41 @@
+EpsOut =0  sq =n
+
+var=UTILITY    rng=Utility(Negishi)!b2
+var=UT1        rng=Utility(Negishi)!b4
+var=UT2        rng=Utility(Negishi)!b5
+var=UT3        rng=Utility(Negishi)!b6
+var=UT4        rng=Utility(Negishi)!b7
+var=UT5        rng=Utility(Negishi)!b8
+var=UT6        rng=Utility(Negishi)!b9
+var=UT7        rng=Utility(Negishi)!b10
+var=UT8        rng=Utility(Negishi)!b11
+var=UT9        rng=Utility(Negishi)!b12
+var=UTa        rng=Utility(Negishi)!b13
+var=UTb        rng=Utility(Negishi)!b14
+var=UTc        rng=Utility(Negishi)!b15
+var=UTd        rng=Utility(Negishi)!b16
+var=UTe        rng=Utility(Negishi)!b17
+var=UTf        rng=Utility(Negishi)!b18
+
+Text="/ ** Utility **/"           rng=Utility(Negishi)!a1
+Text="SUM utility"                rng=Utility(Negishi)!a2
+Text="/ ** National Utility **/"  rng=Utility(Negishi)!a3
+Text="USA"                        rng=Utility(Negishi)!a4
+Text="RUS"                        rng=Utility(Negishi)!a5
+Text="JAP"                        rng=Utility(Negishi)!a6
+Text="CAN"                        rng=Utility(Negishi)!a7
+Text="UMB"                        rng=Utility(Negishi)!a8
+Text="EU"                         rng=Utility(Negishi)!a9
+Text="CHN"                        rng=Utility(Negishi)!a10
+Text="IND"                        rng=Utility(Negishi)!a11
+Text="BRZ"                        rng=Utility(Negishi)!a12
+Text="SAF"                        rng=Utility(Negishi)!a13
+Text="OECD"                       rng=Utility(Negishi)!a14
+Text="REF"                        rng=Utility(Negishi)!a15
+Text="ASIA"                       rng=Utility(Negishi)!a16
+Text="MAF"                        rng=Utility(Negishi)!a17
+Text="LAM"                        rng=Utility(Negishi)!a18
+
+
+
+

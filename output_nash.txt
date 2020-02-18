@@ -1,0 +1,65 @@
+EpsOut =0  sq =n
+
+par =SCC         rng =S_Nash_SCC!a2
+par =ABTM        rng =S_Nash_SCC!a22
+par =DMGM        rng =S_Nash_SCC!a42
+
+Text = "/ ** SCC ** /"                              rng=S_Nash_SCC!a1
+Text = "/Marginal Abatement Cost"                   rng=S_Nash_SCC!a21
+Text = "/Marginal Climate Damage"                   rng=S_Nash_SCC!a41
+
+
+var =MIU.L       rng =S_Nash(Eco)!a3
+var =Y.L         rng =S_Nash(Eco)!a22
+var =YG.L        rng =S_Nash(Eco)!b40
+var =PAbate.L    rng =S_Nash(Eco)!b58
+var =Abatement.L rng =S_Nash(Eco)!b76
+var =PImpact.L   rng =S_Nash(Eco)!b94
+var =PSLRI.L     rng =S_Nash(Eco)!c112
+var =Impact.L    rng =S_Nash(Eco)!b130
+var =C.L         rng =S_Nash(Eco)!a148
+var =I.L         rng =S_Nash(Eco)!a166
+var =K.L         rng =S_Nash(Eco)!a184
+
+Text = "/ ** Emission control rate ** /"                rng=S_Nash(Eco)!a1
+Text = "/*Emission control rate"                        rng=S_Nash(Eco)!a2
+Text = "/ ** Economic Variables ** /"                   rng=S_Nash(Eco)!a20
+Text = "/*GDP(trillion 2011 international$) "           rng=S_Nash(Eco)!a21
+Text = "//Production-CD(trillion 2011 international$)"  rng=S_Nash(Eco)!b39
+Text = "/% Abatement of GDP"                            rng=S_Nash(Eco)!b57
+Text = "//Abatement Cost(trillion 2011 international$)" rng=S_Nash(Eco)!b75
+Text = "/% Impact of GDP"                               rng=S_Nash(Eco)!b93
+Text = "/% SLR Impact of GDP"                           rng=S_Nash(Eco)!c111
+Text = "//Impact(trillion 2011 international$)"         rng=S_Nash(Eco)!b129
+Text = "/ Consumption(trillion 2011 international$)"    rng=S_Nash(Eco)!a147
+Text = "/ Investment(trillion 2011 international$)"     rng=S_Nash(Eco)!a165
+Text = "/ Capital Stock(trillion 2011 international$)"  rng=S_Nash(Eco)!a183
+
+
+
+
+
+var =ES.L        rng =S_Nash(Clm)!b2
+par =LU          rng =S_Nash(Clm)!b7
+var =E.L         rng =S_Nash(Clm)!b25
+var =M.L         rng =S_Nash(Clm)!b43
+var =MU.L        rng =S_Nash(Clm)!b45
+var =ML.L        rng =S_Nash(Clm)!b47
+var =F.L         rng =S_Nash(Clm)!b49
+par =ExogForc    rng =S_Nash(Clm)!c51
+var =TE.L        rng =S_Nash(Clm)!b53
+var =TL.L        rng =S_Nash(Clm)!b55
+
+Text = "/ ** Emission ** /"                             rng=S_Nash(Clm)!a1
+Text = "/Total Emssion(GtC)"                            rng=S_Nash(Clm)!a3
+Text = "//Landuse Emsision(GtC)"                        rng=S_Nash(Clm)!b6
+Text = "//Fossil Emission(GtCO2)"                       rng=S_Nash(Clm)!b24
+Text = "/ **Climate ** /"                               rng=S_Nash(Clm)!a42
+Text = "//M(GtC)"                                       rng=S_Nash(Clm)!a44
+Text = "//MU(GtC)"                                      rng=S_Nash(Clm)!a46
+Text = "//ML(GtC)"                                      rng=S_Nash(Clm)!a48
+Text = "//Forcing(W/M^2)"                               rng=S_Nash(Clm)!a50
+Text = "/exogenous forcing"                             rng=S_Nash(Clm)!b52
+Text = "//Atom Temperature(C)"                          rng=S_Nash(Clm)!a54
+Text = "//Ocea Temperature(C)"                          rng=S_Nash(Clm)!a56
+
